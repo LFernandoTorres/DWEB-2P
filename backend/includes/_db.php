@@ -1,6 +1,6 @@
 <?php
 $server = "proyectparadox.com";
-$db = "Activebox";
+$db = "proye145_Activebox";
 $user = "proye145_admincl";
 $password = "ADMINCLTactivebox";
 
