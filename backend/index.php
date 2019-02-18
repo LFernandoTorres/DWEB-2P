@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Login</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/login.css">
-
 </head>
-  <body class="text-center">
-    <form class="form-signin">
+<body class="text-center">
+  <form class="form-signin">
   <img class="mb-4" src="../img/logotipo.png" alt="" width="72" height="72">
   <h1 class="h3 mb-3 font-weight-normal">Iniciar Sesion</h1>
   <label for="inputEmail" class="sr-only">Correo Electonico</label>
@@ -56,7 +55,7 @@
     };
     $.post("includes/_funciones.php", obj, function);
         
-            //let obj = {}; Con esto ya se clasifica como objeto; no es optimo pero es una notacion oreintada a     objetos, emulando cosas como clases 
+            //let obj = {}; Con esto ya se clasifica como objeto; no es optimo pero es una notacion oreintada a objetos, emulando cosas como clases 
             // "atributo" : "valor",
             // "atributo" : "valor",
             // "atributo" : "valor" 
@@ -67,9 +66,6 @@
 
 
   });
-
-
-
-  </script>
+</script>
 </body>
 </html>
